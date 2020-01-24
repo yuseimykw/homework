@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>足すだけ～～～</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <section class="dentaku">
+        <form class="form">
+            <input id="inputContents" type="text" value="0">
+            <div class="numbers">
+                <div>
+                    <input type="button" value="7" onclick="numBtn(7)">
+                    <input type="button" value="8" onclick="numBtn(8)">
+                    <input type="button" value="9" onclick="numBtn(9)">
+                    <input type="button" value="C" onclick="clearBtn()">
+                </div>
+                <div>
+                    <input type="button" value="4" onclick="numBtn(4)">
+                    <input type="button" value="5" onclick="numBtn(5)">
+                    <input type="button" value="6" onclick="numBtn(6)">
+                    <input type="button" value="+" onclick="calc('+')">
+                </div>
+                <div>
+                    <input type="button" value="1" onclick="numBtn(1)">
+                    <input type="button" value="2" onclick="numBtn(2)">
+                    <input type="button" value="3" onclick="numBtn(3)">
+                    <input type="button" value="=" onclick="calc('=')">
+                </div>
+                <input type="button" value="0" onclick="numBtn(0)">
+            </div>
+        </form>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

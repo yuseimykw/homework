@@ -1,0 +1,41 @@
+*,*:after,*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input, button, textarea, select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+body {
+    background-color: skyblue;
+    
+}
+.dentaku{
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+    border-radius: 10px;
+    height: 50vh;
+    width: 20%;
+    margin: 100px auto;
+    box-shadow:0 0 20px black;
+    padding: 20px;
+    .form{
+        
+        #inputContents{
+            margin-bottom: 30px;
+            text-align: right;
+        }
+        .numbers{
+            input {
+                padding: 10px;
+                margin-bottom: 5px;
+                margin-left: 5px;
+            }
+        }
+    }
+}
