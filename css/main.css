@@ -29,15 +29,16 @@ body {
   margin: 100px auto;
   -webkit-box-shadow: 0 0 20px black;
           box-shadow: 0 0 20px black;
-  padding: 20px;
+  padding: 30px;
 }
 
-.dentaku .form #inputContents {
+.dentaku form #inputContents {
   margin-bottom: 30px;
   text-align: right;
+  height: 30px;
 }
 
-.dentaku .form .numbers input {
+.dentaku form .numbers input {
   padding: 10px;
   margin-bottom: 5px;
   margin-left: 5px;
